@@ -1,3 +1,8 @@
+/* 
+3. Write a typescript program which contains one function named as 
+Maximum. That function accepts array of numbers and returns the second 
+largest number from array.  */
+
 function Maximum(Arr:number[]): number {
     let Max :number = 0;
     let SecondLargest :number = 0;
@@ -23,8 +28,4 @@ var Ret : number = 0;
 Ret = Maximum(Input);
 
 console.log("Second largest number is :"+Ret);
-
-
-
-
 

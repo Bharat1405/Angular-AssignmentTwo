@@ -1,3 +1,8 @@
+/* 
+2. Write a typescript program which contains one function named as 
+Summation. That function accepts array of numbers and returns the 
+summation of each number from array.  */
+
 function Summation(Arr:number[]): number {
     let Sum : number = 0;
 

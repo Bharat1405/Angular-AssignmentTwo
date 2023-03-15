@@ -1,3 +1,8 @@
+/* 
+4. Write a typescript program which contains one arrow function 
+named as ChkArmstrong. That function accepts one numbers 
+and check whether number is Armstrong number or not. */
+
 var ChkArmstrong = ( num : number): boolean => {
     
     let digits : number[] = num.toString().split('').map(Number);
@@ -8,8 +13,6 @@ var ChkArmstrong = ( num : number): boolean => {
         let power = digits[i]*digits[i];
         Sum = Sum + power;
     }
-
-    console.log(Sum);
     
     if(num === Sum)
     { 
